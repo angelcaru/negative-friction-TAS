@@ -1,0 +1,63 @@
+RecordCount: 67
+
+console load 0
+   1
+
+Set ExtendedVariantMode.AirFriction -1
+Set ExtendedVariantMode.Friction -1
+
+#Start
+  61
+
+#lvl_0
+  16,L
+   1,R,J
+  10,L,J
+  18,L
+   1,R,J
+  14,L,J
+  40
+
+#lvl_1
+   7,L
+   1,R
+   4,R,J,G
+   4,L,J
+  10,L
+   1,R,J
+  27,L,J
+   1,R,K
+   7,L,K
+   1,R,K
+   2,R,J,G
+  10,L,J
+   2,R,K,G
+   2,L,K
+   9,L
+   1,R,J
+  10,L,J
+  14,L
+  40
+
+#lvl_2
+  11,L
+   1,R,J
+  14,L
+   1,R,J
+   6,L
+  40
+
+#lvl_3
+  15,L
+   1,R,J
+  14,L
+   1,R,J
+   5,L,J
+  16,L
+   3,R,G
+   8,J,G
+   1,S
+   1,D,J
+ 232
+
+ChapterTime: 0:10.047(591)
