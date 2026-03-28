@@ -1,18 +1,32 @@
-RecordCount: 3146
+RecordCount: 3223
+
 console load 3
-console Set ExtendedVariantMode.AirFriction -1
-console Set ExtendedVariantMode.Friction -1
-  62
+   1
+
+Set ExtendedVariantMode.AirFriction -1
+Set ExtendedVariantMode.Friction -1
+
 #Start
-   5,R,J,Z
+  61
+#lvl_s0
+   4,Z
+   1,R,J
    7
    1,R,J
-  77
+  25
+  40
+
+#lvl_s1
+  12
    1,R,J
    6,R,D,X
    1,R,J,G
    2,L
-  51
+   9
+  40
+
+#lvl_s2
+   2
   10,R,J
    3,R
   15,U,X
@@ -24,7 +38,10 @@ console Set ExtendedVariantMode.Friction -1
    1,R,J
   12,L,J
   15,U,X
-  45,L
+   5,L
+  40
+
+#lvl_s3
   15,R,U,X
   16,L
   11,L,J
@@ -34,13 +51,18 @@ console Set ExtendedVariantMode.Friction -1
   21,L,D
   50,R,G
   46
-   5,R,J,Z
+   4,Z
+   1,R,J
   15
    1,R,J
    6,L,J
    8,R
    5,L
-  51,R,U,Z
+   7,R,U,Z
+  40
+
+#lvl_0x-a
+   4,R,U,Z
    7,L,J,G
    5
   14,D,X
@@ -49,11 +71,19 @@ console Set ExtendedVariantMode.Friction -1
   35,D,J
    5,R,K,Z
   17
-  50,R,U,Z
+   8,R,U,Z
+  40
+
+#lvl_00-a
+   2,R,U,Z
    1,L
   15,J,G
    1,R,K,G
-  75,L
+  34,L
+  40
+
+#lvl_02-a (0)
+   1,L
   15,U,X
    3,J
   15,L
@@ -63,8 +93,11 @@ console Set ExtendedVariantMode.Friction -1
   15,U,C
   18,J
   12,K
-  42,J
-   2,L
+   3,J
+  40
+
+#lvl_02-b
+   1,L
   10,R
   10,L,X
   11,J
@@ -88,8 +121,11 @@ console Set ExtendedVariantMode.Friction -1
   13,L,D
    6,R,D
    8,R
-   1,X
-  50,R,D
+   8,R,D,X
+  40
+
+#lvl_02-a (1)
+  10,R,D
   48,L,D,C
    1,R,J
   10,L,J
@@ -97,7 +133,11 @@ console Set ExtendedVariantMode.Friction -1
  122,L
    5,R,Z
    3,J
-  45
+   2
+  40
+
+#lvl_03-a
+   3
    2,J
    8
   13,R,U,Z
@@ -111,7 +151,11 @@ console Set ExtendedVariantMode.Friction -1
   34,D,J
    5
    3,J
-  47,D
+   2
+  40
+
+#lvl_05-a
+   5,D
    1,J
    8
   14,R,U,Z
@@ -119,8 +163,11 @@ console Set ExtendedVariantMode.Friction -1
    1,L
    5,J,G
   12,K
-  10,L,K
-  46
+   6,L,K
+  40
+
+#lvl_06-a
+  10
    5,L,D
    5,R,U,Z
    2,L
@@ -131,22 +178,38 @@ console Set ExtendedVariantMode.Friction -1
    8,K
   28,L,D
   15,R,U,Z
-  43,L
+   1,L
+  40
+
+#lvl_07-a (0)
+   2,L
    8,U,X
   18,L,J
   12,K
-  54,J
+   3,J
+  40
+
+#lvl_07-b (0)
+  11,J
    8,K,G
-   5,Z
+   5,L,Z
    1,L,J
-  47
+   4
+  40
+
+#lvl_06-b
+   3
    1,L,J
   17,J
   15,L,U,X
   12,J,G
   12,K,G
   12,J,G
-  46,K,G
+   4,K,G
+  40
+
+#lvl_06-c
+   2
    8,L,J,G
    4,R,J
    1,L,K,G
@@ -163,7 +226,11 @@ console Set ExtendedVariantMode.Friction -1
    5,R,J,Z
    7
    2,K
-  54
+   9
+  40
+
+#lvl_08-c
+   5
   10,R
   10,U,X
   16,J
@@ -188,7 +255,11 @@ console Set ExtendedVariantMode.Friction -1
    3,L,D
   14,R,D
    4,L,D
-  70,R,D
+   5,R,D
+  40
+
+#lvl_08-b
+  25,R,D
   15,R,D,X
   15,L,D,C
   12,D
@@ -204,7 +275,11 @@ console Set ExtendedVariantMode.Friction -1
    5
    1,R
    1,J,G
-  76
+  26
+  40
+
+#lvl_07-b (1)
+  10
   10,L,U,Z
    1,J,G
    1,K,G
@@ -214,25 +289,40 @@ console Set ExtendedVariantMode.Friction -1
    1,K
    1,J
    7
-  62,D,X
+  14,D,X
+  40
+
+#lvl_07-a (1)
+   8,D
 Repeat, 3
    1,L,D
    1,R,D
 EndRepeat
   15,L,D
-  86
+Repeat, 43
+   1,D
+   1
+EndRepeat
   10,J
   13
   12,R,D,X
    1,R,J
    6,L,J
    3,K,G
-  70
+  24
+  40
+
+#lvl_08-a
+   6
    9,J
    1,S
   35,D,J
    2,R,J
-  55,R,U,Z
+  10,R,U,Z
+  40
+
+#lvl_09-b (0)
+   5,R,U,Z
   10,U,X
   15,J
   12,L,K
@@ -322,10 +412,18 @@ EndRepeat
   15,L,D
   22,R,D
   15,R,D,X
-  49,L,D
+   8,L,D
+  40
+
+#lvl_10-x (0)
+   1,L,D
   14,L,D,X
    1,R,J
-  69
+   6
+  40
+
+#lvl_11-x
+  23
   12,R,U,Z
    1,J,G
    1,L,J
@@ -339,7 +437,11 @@ EndRepeat
    3,L,J
   17,D,X
    4,L,D
-  46,R,D
+   3,R,D
+  40
+
+#lvl_11-y
+   3,R,D
    8,L,D,X
    1,L,J
    5,R,D
@@ -358,7 +460,10 @@ EndRepeat
    1,K
   10,R,D
   33,D
-  45,L,D
+   5,L,D
+  40
+
+#lvl_11-z
   15,R,D,X
    3,L
   10,L,D
@@ -369,7 +474,10 @@ EndRepeat
    6,R,J
   20,R
    1,R,J
-  43,L,J
+  40
+
+#lvl_10-z
+   3,L,J
    8,L,K
   15,U,X
    9,L
@@ -379,14 +487,21 @@ EndRepeat
    1,R,K,G
    7,L
   15,U,X
-  55,L,J
+   4,L,J
+  40
+
+#lvl_10-y
+  11,L,J
   15,U,X
   15,K
   12,J
   12,K
   12,J
    1,R,K,G
-  41,L,K
+   1,L,K
+  40
+
+#lvl_10-x (1)
    7,R
    1,L
    2
@@ -400,8 +515,11 @@ EndRepeat
   10,L,X
    8,J
   15,U,X
-  50,J
-   7,L
+  13,J
+  40
+
+#lvl_09-b (1)
+   4,L
    4,R
   14,L,U,X
    1,L,J,G
@@ -442,7 +560,11 @@ EndRepeat
   11,L,K
   15,R,U,X
    1,J,G
-  54,L,J
+   4,L,J
+  40
+
+#lvl_10-c (0)
+  10,L,J
    5,K
    9
    3,D
@@ -458,12 +580,24 @@ EndRepeat
   12,L
    1,R,J
    1,J
-  59
+  18
+  40
+
+#lvl_11-c
+   1
    4,L,D
    1,R,J
    9,L
-  55,R,U,Z
-  55,U,X
+  13,R,U,Z
+  40
+
+#lvl_12-c
+   2,R,U,Z
+  12,U,X
+  40
+
+#lvl_12-d
+   3,U,X
    9,J
   15,U,X
    1,L,J,G
@@ -492,7 +626,11 @@ EndRepeat
    1,D
    9
    1,J
-  81,D
+  10
+  40
+
+#lvl_11-d
+  31,D
    1,L,G
    1,L,J,G
   15,R,J
@@ -506,7 +644,11 @@ EndRepeat
    9,R
    5,D
    1,L,J
-  46,R,J
+   1,R,J
+  40
+
+#lvl_10-d
+   5,R,J
    7,U,X
    1,J
   19
@@ -516,7 +658,15 @@ EndRepeat
    5,L,Z
    1,J
   13,R
- 152,D,X
+  20,D,X
+  40
+
+#lvl_10-c (1)
+  44,D
+  40
+
+#lvl_09-b (2)
+   8,D
    1,J
    2
    1,J
@@ -530,7 +680,11 @@ EndRepeat
    1,K
   15
    3,R
-  51,R,U,X
+  10,R,U,X
+  40
+
+#lvl_11-b
+   1,R,U,X
    1,L
    1,J,G
   11
@@ -550,13 +704,21 @@ EndRepeat
   43,D,J
   13,R,U,Z
    1,R,J,G
-  46,L
+   5,L
+  40
+
+#lvl_12-b
+   1,L
    7,R
    9,R,Z
    1,R,J,G
   14,L
    1,R,J
-  52,R,U,X
+   8,R,U,X
+  40
+
+#lvl_13-b
+   4,R,U,X
    1,R,J,G
    3,L
    5,R,U,Z
@@ -574,8 +736,11 @@ EndRepeat
    3,R
    6,L
   15,L,D,X
-  44,L,D,C
-   7,R
+   9,L,D,C
+  40
+
+#lvl_13-a
+   2,R
    4,L
   15,L,Z
   15,L,D,X
@@ -592,11 +757,14 @@ EndRepeat
    3,R,J
   23
   15,D,X
-Repeat, 15
+Repeat, 12
    1,L,D
    1,R,D
 EndRepeat
-  35
+   1,L,D
+  40
+
+#lvl_13-x
   15,L,D,X
    2,L
   15,R,D
@@ -617,7 +785,11 @@ EndRepeat
   14,R,D
    5,R
    1,L,J
-  47,R,J
+   5,R,J
+  40
+
+#lvl_12-x
+   2,R,J
    1,K,G
    8,K
    1,L,J,G
@@ -631,7 +803,10 @@ EndRepeat
    2,R,J
   15,U,X
   18,J
-  52,K
+  12,K
+  40
+
+#lvl_11-a
   11,R
    4,R,J
    1,L,K,G
@@ -648,7 +823,11 @@ EndRepeat
    1,L,J,G
    4,R,J
    1,L,K,G
-  65,R,K
+   4,R,K
+  40
+
+#lvl_09-b (3)
+  21,R,K
   17,L,K
    9,L,U,X
    1,L,J,G
@@ -674,7 +853,11 @@ EndRepeat
    1,S
   35,D,J
    2
-  57,U,X
+  13,U,X
+  40
+
+#lvl_09-d
+   4,U,X
   25,J
   15,U,X
   18,L,J
@@ -698,7 +881,11 @@ EndRepeat
   15,L,D,X
    4,R,D
    1,L,J
-  55,R,J
+   1,R,J
+  40,J
+
+#lvl_08-d
+  14,R,J
   15,U,X
   15,R,D,C
    7,L,D
@@ -716,7 +903,11 @@ EndRepeat
    1,L
    1,R,J,G
    6,L,J
-  70,R,K,G
+  26,R,K,G
+  40
+
+#lvl_06-d
+   4,R,K
    7,D,X
   21,L,D
   13,R,D
@@ -744,7 +935,11 @@ EndRepeat
   14,L,J
    4
    8,K
-  58
+  12
+  40
+
+#lvl_04-d
+   6
   12,L,D
   12,R,D
    5,R
@@ -795,7 +990,11 @@ EndRepeat
    7
    1,L,J
    2,R,J
-  52,L,U,Z
+  10,L,U,Z
+  40
+
+#lvl_02-d
+   2,L,U,Z
    1,R
    5,J,G
    7
@@ -838,7 +1037,11 @@ EndRepeat
    1
   13,J
    4,L,J
-  53,L,Z
+  12,L,Z
+  40
+
+#lvl_00-d
+   1,L,Z
    1,S
   44,D,J
    1,L,K
@@ -846,7 +1049,10 @@ EndRepeat
   15,U,X
   18,L,J
    1,R,K,G
-  42,L,K
+   2,L,K
+  40
+
+#lvl_roof00
    1,J
    7
    1,S
@@ -870,17 +1076,29 @@ EndRepeat
    4,L,J
    8,L
    2,R,J
-  45,L
+   2,L
+  40
+
+#lvl_roof01
+   3,L
   14,R,X
   10,R,J
   28,R,D,X
-  53,L,D
+   6,L,D
+  40
+
+#lvl_roof02
+   7,L,D
    6,J
   10,L,D
    1,R,D
    1,R,J
   14,L,J
-  55,R,U,X
+   5,R,U,X
+  40
+
+#lvl_roof03
+  10,R,U,X
   18,L,J
   15,U,X
   16,L
@@ -910,7 +1128,11 @@ EndRepeat
    5,R,J,Z
   13
    1,D
-  51,L
+   7,L
+  40
+
+#lvl_roof04
+   4,L
    1,L,D
    7,J
    4
@@ -921,7 +1143,11 @@ EndRepeat
    4,R
    1,R,K,G
    2,L,K
-  53,R,K
+   3,R,K
+  40
+
+#lvl_roof05
+  10,R,K
    1,R,J,G
   19,L
    4,R
@@ -934,13 +1160,21 @@ EndRepeat
   26,L
   15,R,D,X
   25,L,D
-  49
+   4
+  40
+
+#lvl_roof06b
+   5
    1,R,J
    1,L,J
    5,R,D,X
    1,L
   24,J,G
-  62
+  16
+  40
+
+#lvl_roof06
+   6
    4,R,D
    9,R,D,J
    1
@@ -973,6 +1207,12 @@ EndRepeat
    1,R,J
    6
    1,R,D,J
-  77,J
+  37,J
+  40
+
+#lvl_roof07
    1,S
-  19,D,J
+   1,D,J
+  18
+
+ChapterTime:
