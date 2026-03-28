@@ -1,16 +1,24 @@
-RecordCount: 1093
+RecordCount: 1141
 
 console load 2
    1
-console Set ExtendedVariantMode.AirFriction -1
-console Set ExtendedVariantMode.Friction -1
+
+Set,ExtendedVariantMode.AirFriction,-1
+Set,ExtendedVariantMode.Friction,-1
+
 #Start
  190
 
-   5,R,J,Z
+#lvl_start
+   4,Z
+   1,R,J
    7
    1,R,J
-  47
+   3
+  40
+
+#lvl_0 (0)
+   4
    5,R,D,X
    2,L
    1,J,G
@@ -18,10 +26,17 @@ console Set ExtendedVariantMode.Friction -1
    1,R,J
    3,L,J
    1,R,K,G
-  56,L,K
+   7,L,K
+  40
+
+   9,L,K
   15,D,X
    3,L,D
-  54,R,D
+   4,R,D
+  40
+
+#lvl_d0 (0)
+  10,R,D
    4
   26,D
    7,L,D
@@ -35,21 +50,34 @@ console Set ExtendedVariantMode.Friction -1
    1,R,J,G
    1,R,K,G
   23,L,D
-   5,R,J,Z
-  47
+   4,Z
+   1,R,J
+   3
+  40
+
+#lvl_d7
+   4
    1,R,J
    3
    8,R,D,X
    1,L
    8,J,G
-  57
+  14
+  40
+
+#lvl_d8
+   3
    1,R,J
    7,J
    7,U,X
   25,J
    8,U,X
    1,J
-  60
+  11
+  40
+
+#lvl_d3
+   9
    1,R,J
    6,J
    2
@@ -67,7 +95,11 @@ console Set ExtendedVariantMode.Friction -1
    3,R
    1,L,K,G
    2,R
-  48,L
+   6,L
+  40
+
+#lvl_d2
+   2,L
    2
   12,R,D
   29,L,Z
@@ -77,7 +109,11 @@ console Set ExtendedVariantMode.Friction -1
    1,L,J,G
   32,R
    1,L,J
-  52,R,J
+   9,R,J
+  40
+
+#lvl_d0 (1)
+   3,R,J
   42,L,X
   23,R,U,C
   15,U,X
@@ -90,13 +126,20 @@ console Set ExtendedVariantMode.Friction -1
    7,L,J
   15,U,Z
   37,L
-  51,U,X
+  10,U,X
+  40
+
+#lvl_1
+   1,U,X
   15,L,J
    7,K
    8,L,Z
    1,J
   18,D
-  41,L,J
+   1,L,J
+  40
+
+#lvl_0 (1)
    3,J
   36,L,U,X
   12,J
@@ -106,8 +149,11 @@ console Set ExtendedVariantMode.Friction -1
   15,U,X
    8,J
    7,L,J
-  20,R,K,G
-  36,L,J
+   5,R,K,G
+  40,J
+
+#lvl_3x
+  11,L,J
   20,R,U,X
   26,R,D,C
   33,R,U,X
@@ -117,7 +163,10 @@ console Set ExtendedVariantMode.Friction -1
   50,L,C
    3,J
   15,U,X
-  47,J
+   7,J
+  40
+
+#lvl_3
    1,S
   34,D,J
    2,R,K
@@ -131,7 +180,10 @@ console Set ExtendedVariantMode.Friction -1
    1,R,K
    8,L,K
   13,U,X
-  46,J
+   6,J
+  40
+
+#lvl_4
    1,K
   15
    1,L,J
@@ -144,8 +196,11 @@ console Set ExtendedVariantMode.Friction -1
    1,L,K
    1,K
   13,U,X
-  40,J
-   3,L
+   1,J
+  40
+
+#lvl_5
+   2,L
    1,R,J,G
   13
    1,R,D,J
@@ -161,7 +216,11 @@ console Set ExtendedVariantMode.Friction -1
   15,U,X
   15,L,J
   12,R,K,G
-  42,R,J
+   1,R,J
+  40
+
+#lvl_6
+   1,R
    1,L,K,G
    1,L,J,G
   14,J
@@ -185,7 +244,10 @@ console Set ExtendedVariantMode.Friction -1
    8
   18,L,X
   12,U,C
-  45,L,J
+   5,L,J
+  40
+
+#lvl_7
    8
    4,L
   13,U,X
@@ -211,8 +273,10 @@ console Set ExtendedVariantMode.Friction -1
    1,R,J,G
   11,L,J
   10,K
-  12,J
-  34
+   6,J
+  40
+
+#lvl_8
    1,K
   23
   15,U,X
@@ -235,7 +299,11 @@ console Set ExtendedVariantMode.Friction -1
    8,J
    1,R,K,G
    2,L,K
-  71,L,D
+   7,L,D
+  40
+
+#lvl_9
+  24,L,D
   18,L,D,X
   19,R,D,C
    4,R,J
@@ -252,7 +320,10 @@ console Set ExtendedVariantMode.Friction -1
    5,L
    4,R
   14,L
-  59,D,X
+  19,D,X
+  40
+
+#lvl_10
    4,R
   51,L,Z
   18,R,D,X
@@ -279,7 +350,8 @@ console Set ExtendedVariantMode.Friction -1
    4,R,J
    1,R,K
   11,L
-   5,L,J,Z
+   4,Z
+   1,L,J
    7,L
    1
    1,L,J
@@ -304,13 +376,25 @@ console Set ExtendedVariantMode.Friction -1
   15,D,X
   27,R,D
    8
-  93,D,X
+  14,D,X
+  40
+
+#lvl_2
+  39,D
   11,L,D
- 100
+  54
+  40
+
+#lvl_11
+   6
   14,R,U,Z
    1,R,J,G
    9,L,J
-  62
+  15
+  40
+
+#lvl_12b
+   7
    2,R,J
    7,L
   17,R,X
@@ -321,19 +405,41 @@ console Set ExtendedVariantMode.Friction -1
   14,R,Z
    4,R,J
    1,R,K
-  57,K
+  11,K
+  40
+
+#lvl_12
+   6,K
    5,R,K
    7,R,D,X
    1,R,J,G
    1,L,J
   16
    1,R,J
-  15,R,D,X
-  47
+  13,R,D,X
+  40
+
+#lvl_13
+   2,R,D,X
+   9
    1,S
- 209,D,J
-   5,R,K,Z
-  52
+   1,D,J
+  18
+
+#lvl_end_0
+ 110
+   1,S
+   1,D
+   1,J,F,180
+SaveAndQuitReenter
+  36
+   4,Z
+   1,R,J
+  11
+  40
+
+#lvl_end_1
+   1
    1,R
    9
    1,R,J
@@ -344,27 +450,50 @@ console Set ExtendedVariantMode.Friction -1
    4
    8,J
    1,R,K
-  51,R,U,Z
+   5,R,U,Z
+  40
+
+#lvl_end_2
+   6,R,U,Z
    1,R,J,G
    4,L,D
-  15,R,D,X
-  47,R,D
+  14,R,D,X
+  40
+
+#lvl_end_3
+   8,R,D
   12,R,J
   14,U,X
-  85,J
+  36,J
+  40
+
+#lvl_end_4
+   9
   14,R,U,Z
    1,R,J,G
    2,J
   15
-  41,R,J
+   1,R,J
+  40
+
+#lvl_end_3b
   15,R,D,X
    5
    1,R,J
-  30,J
-  25
+  14,J
+  40
+
+#lvl_end_5
+   1
   14,R,U,X
    1,R,J,G
-  49
+   9
+  40
+
+#lvl_end_6
   10,R,D,X
    1,S
-  19,D,J
+   1,D,J
+  18
+
+FileTime: 1:21.073(4769)
