@@ -29,6 +29,7 @@ Set,ExtendedVariantMode.Friction,-1
    7,L,K
   40
 
+#lvl_1 (0)
    9,L,K
   15,D,X
    3,L,D
@@ -129,7 +130,7 @@ Set,ExtendedVariantMode.Friction,-1
   10,U,X
   40
 
-#lvl_1
+#lvl_1 (1)
    1,U,X
   15,L,J
    7,K
