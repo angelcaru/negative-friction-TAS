@@ -1,4 +1,4 @@
-RecordCount: 1534
+RecordCount: 1566
 
 console load 7
    1
@@ -75,25 +75,17 @@ Set,ExtendedVariantMode.Friction,-1
    2
   30,R,U,C
   17,L,D,X
-  24,L
-StunPause
-  11,L
-SkipInput,3,1
-   7,R,U,Z
-   1,R,J,G
-   2,L,J
-EndStunPause
-   7,L
-  15,R,D,X
-   3,L,D
+  34,L
+  15,R,U,X
+  34,L
   40
 
 #lvl_a-04
-   5,L
+   8,L
    1,R,J
-  10,L,J
+  13,L,J
   15,U,X
-  11,U,C
+  10,U,C
   12
   18,U,X
    5,J
@@ -1088,9 +1080,7 @@ EndRepeat
 
 #2500m
 #lvl_f-00
-***S
   74
-***
    1,R,J
    1,L,J
   15,R,U,X
@@ -1127,7 +1117,6 @@ EndRepeat
   40
 
 #lvl_f-02
-***
    6
    1,L,J,G
   21,L,D
@@ -1144,11 +1133,9 @@ EndRepeat
   40
 
 #lvl_f-04
-***
   29,L,J
    6,R,U,Z
    1
-***
 StunPause
    7
    1,R,J,G
@@ -1161,7 +1148,6 @@ EndStunPause
   40
 
 #lvl_f-03
-***
   10
    2,R
   10,R,Z
@@ -1184,7 +1170,6 @@ EndStunPause
   40
 
 #lvl_f-07
-***
    9,L,J
   12,R,J
   15,U,X
@@ -1205,8 +1190,7 @@ EndStunPause
   40
 
 #lvl_f-05 (1)
-***
-  33,L,D
+  35,L,D
   14,R,D,X
    1,L,J
   30,R,J
@@ -1334,30 +1318,22 @@ EndStunPause
   18,L,J
   21,K
   50,U,G
-   9,L,J,G
-Repeat,5
-   1,R,J
-   1,L,J
-EndRepeat
-  14,R,D,J
-   1,R,K
-   7,L,K
-  11,J
-  17,G
-   5,U,X
-  13,R,J
-  12,L,U,X
-***S
-  40,U,C
+  11
+   1,J
+  15,L
+  22,R,U,G
+   1,J
+  13,L,J
+  15,U,X
+  12,R,U,Z
+  39,U,X
  176
    1,S
    1,D,J
   18
-***
  124
 
 #lvl_g-00
-***
   75
 # flag 30
    1,L,K
@@ -1411,7 +1387,6 @@ EndRepeat
   40
 
 #lvl_g-00b
-***
   72
 # flag 28
    1,R,J
@@ -1550,12 +1525,10 @@ EndRepeat
   15,U,X
    4,L
    1,J
-***
  211
   40
 
 #lvl_g-01
-***S
   69
 # flag 19
    3,R,J
@@ -1672,10 +1645,9 @@ EndRepeat
    6,R
   15,L,Z
   44
-***
-  10,L,U,Z
+   9,L,U,Z
 StunPause
-   9
+  10
 EndStunPause
    7,L
    7,R,U,X
@@ -1754,12 +1726,10 @@ EndRepeat
    1,R,K,G
   11,L,K
   14,J
-***S
  135
   40
 
 #lvl_g-02
-***
   69
 # flag6
    5,L,J,X
@@ -1949,4 +1919,5 @@ EndRepeat
    1,D,J
   18
 
-ChapterTime: 6:01.420(21260)
+***
+ChapterTime: 5:59.958(21174)
