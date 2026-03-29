@@ -1,4 +1,4 @@
-RecordCount: 2644
+RecordCount: 2675
 
 console hard 5
    1
@@ -654,11 +654,11 @@ SaveAndQuitReenter
   14,L,D,G
    1,D
    6,L,D
+  31,L
    1,R,J
-  14,L
-   1,R,J
-  18,L
    5,R,D,X
+# SPINNER CYCLE
+   1
   10,R,D,X,G
    3,R
   40
@@ -666,17 +666,21 @@ SaveAndQuitReenter
 #lvl_d-04
    4,L,G
    1,R,J,G
-   1,L,G
-   2,L,G
-   1,S
-  10,J
-   6,L,G
+   4,L,G
+  11,S,Q,N
+   5,L,G
   40
 
 #lvl_d-05
   19,L,D,G
    6,L,G
    6,R
- 135,R
+  13,R
+   4,Z
+   1,L,J
+  27,R
+  19,L,U,Z
+   1,L,J,G
+  76,R,J
 
-FileTime: 1:26.632(5096)
+FileTime: 1:26.615(5095)
