@@ -1,4 +1,4 @@
-RecordCount: 1566
+RecordCount: 1575
 
 console load 7
    1
@@ -1106,6 +1106,10 @@ EndRepeat
    8
   12,R,U,Z
   29,L,D
+
+# SPINNER CYCLE
+   0
+
   15,L,X
   12,R,D,C
    1,R,J,G
@@ -1190,7 +1194,7 @@ EndStunPause
   40
 
 #lvl_f-05 (1)
-  35,L,D
+  33,L,D
   14,R,D,X
    1,L,J
   30,R,J
@@ -1326,6 +1330,8 @@ EndStunPause
   13,L,J
   15,U,X
   12,R,U,Z
+# SPINNER CYCLE
+   2
   39,U,X
  176
    1,S
