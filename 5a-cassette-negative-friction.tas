@@ -1,4 +1,4 @@
-RecordCount: 555
+RecordCount: 571
 
 console load 5
    1
@@ -87,8 +87,6 @@ Set,ExtendedVariantMode.Friction,-1
   14,L,D
   30,R,U,X
   19,U,C
-# SPINNER CYCLE
-   1
   96,U,X
   43
 
@@ -105,18 +103,34 @@ Set,ExtendedVariantMode.Friction,-1
   40
 
 #lvl_a-12
+#    3,L
+#   10,R,U,Z
+#    1,R,J,G
+#    2,L,J
+# StunPause
+#   10,L
+# EndStunPause
+#    4,L
+#    8,R
+# Repeat,9
+#    1,L,D
+#    1,R,D
+# EndRepeat
+#    1,D
+
    3,L
-  10,R,U,Z
-   1,R,J,G
-   2,L,J
-StunPause
-  10,L
-EndStunPause
-   4,L
-   8,R
-Repeat,9
-   1,L,D
+   6,R,U,X
+  11,R,C
+   1,R,J
+   9,L
+   1,R
+  12,R,U,Z
+   1,L,J,G
+  22,D
+   7,L,D
+Repeat, 7
    1,R,D
+   1,L,D
 EndRepeat
    1,D
   54,L,X
@@ -370,4 +384,4 @@ EndRepeat
    1,O
   31
 
-FileTime: 1:02.390(3670)
+FileTime: 1:01.863(3639)
