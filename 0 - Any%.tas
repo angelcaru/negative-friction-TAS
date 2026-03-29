@@ -1,0 +1,57 @@
+Read,Menuing/StartFullGameFile
+
+Read,0-prologue-negative-friction,Start
+
+Read,Menuing/LoadANoCollects,Prologue
+
+Read,1a-negative-friction,Start
+
+Read,Menuing/LoadA
+
+Read,2a-negative-friction,Start
+
+Read,Menuing/LoadA
+
+Read,3a-negative-friction,Start
+
+Read,Menuing/LoadA
+
+Read,4a-negative-friction,Start
+
+Read,Menuing/LoadA
+
+Read,5a-cassette-negative-friction,Start,Return
+
+Read,Menuing/LoadBFromA
+
+Read,5b-negative-friction,Start
+
+Read,Menuing/LoadAFromB
+
+Read,6a-cassette-negative-friction,Start,Return
+
+Read,Menuing/LoadBFromA
+
+Read,6b-negative-friction,Start
+
+Read,Menuing/LoadAFromB,0,Summit
+#Summit
+  45
+Add 29
+   1,J
+  32
+Add 1
+
+Read,7a-negative-friction,Start
+
+Read,Menuing/LoadCoreFromSummit,0,Epilogue
+
+Read,0-epilogue-negative-friction,Start
+ 300
+   1,J
+Add 58
+ 427
+
+Read,Menuing/LoadJournal,0,Any%
+
+FileTime: 19:31.997(68941)
