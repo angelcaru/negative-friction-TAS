@@ -1,4 +1,4 @@
-RecordCount: 2643
+RecordCount: 2941
 
 console hard 6
    1
@@ -170,53 +170,50 @@ EndRepeat
   19,L,Z
    1,L,J,G
    1,L,K,G
-  18,R,K
-  40,L,G
-   1
-  13,J,G
-   6,L,K
-  15,L,X
-   1,L,K,G
+  11,R,K
    1,L,J,G
-   3,R,K
-  10,R
-  48,L,G
-   1
-  15,J
-   4,K
-   2,R
-  10
-  20,R,K
-   5,L,G
-Repeat,67
-   1
-   1,G
-EndRepeat
-   9,L
-Repeat,2
+   5,R,J
+   4,R
+   1,L
    1,R
    1,L
-EndRepeat
-   4,R
-   4,L
-  24,R
-   2,L,J,G
-   1,R,J
-  10,L,J
-   1,R,J
-  17,L,J
-   5,L,D,J
-   7,R,U,X
+   1,R
    1,L
-  40,J
-  26,R,U,G
-   1,R,J,G
-  15,L,J
-   4,L,K
-   8,J
-   4
+   5,R
+  10,L,D,G
+   2,G
+   1
+   1,L,J,G
+   1,K,G
+   4,K
+StunPause
+   2,L,J,G
+SkipInput 3 1
+  10,R,U,X
+SkipInput 3 1
+   7
+   1,R,K,G
+   2,L,J
+EndStunPause
+   9,L,J
+  14,L,U,X
+   1,L,J,G
+   8,L
+   8,R
+Repeat, 11
+   1,R,D
+   1,L,D
+EndRepeat
+  14,R,D
+ 103,L,G
+   1,L,J,G
+   9,R,J
+  13,K
+   9,J
    3,L
-  15,U,X
+   4,R
+  14,U,X
+   1,L
    1,R,J,G
   10,L
    5,R,J,X
@@ -311,6 +308,7 @@ EndRepeat
    4,L,K
   16,L
   40
+#lvl_b-03
 
    1,L
   13
@@ -326,13 +324,16 @@ Repeat,8
    1,R,D
    1,L,D
 EndRepeat
-   2,L,D
+   1,L,D
 StunPause
-Repeat, 20
+   1,L,D
+Repeat, 19
    1,L,D
    1,R,D
 EndRepeat
 EndStunPause
+   1,L,D
+   1,R,D
 
    7,R,D
 Repeat,8
@@ -418,41 +419,37 @@ Repeat,10
    1,R
    1,L
 EndRepeat
-Repeat,10
+Repeat,11
    1,R,D
    1,L,D
 EndRepeat
-StunPause
-   1,R,D
+  15,R,D
+  10,L,D
+   4,R,D
+   2,L,D
+   6,L
    1,L,D
-  16,R,D
-Repeat, 6
-   1,L,D
-   1,R,D
+   3,R
+  10,R,J,G
+Repeat, 18
+   1,L,J
+   1,R,J
 EndRepeat
-   1,L,D
-   1,R
-   2,L
-EndStunPause
-   2,R
-Repeat,6
-   1,L
-   1,R
+Repeat, 10
+   1,L,D,J
+   1,R,D,J
 EndRepeat
-Repeat,8
-   1,L,D
-   1,R,D
-EndRepeat
-  35,R,D
-   1,J
-  37,R,D
+  29,R,D
+   1,K
+  33,R,D
+   4,R
   15,U,X
    8,L
-Repeat,12
+Repeat, 13
    1,R,D
    1,L,D
 EndRepeat
-  25,L,D
+  23,L,D
   40
 
 #lvl_b-07
@@ -508,14 +505,15 @@ EndRepeat
   15,R,X
   19,L,D
   15,D,X
-Repeat,2
    1,L,D
    1,R,D
-EndRepeat
+Repeat, 2
+
    1,S
   10,J
    1,L,D
    1,R,D
+EndRepeat
    1,S
   10,J
    4,L,D
@@ -870,4 +868,4 @@ EndRepeat
   11,L,J
  200,R,U,X
 
-ChapterTime: 3:08.275(11075)
+ChapterTime: 3:03.192(10776)
