@@ -1,4 +1,4 @@
-RecordCount: 2643
+RecordCount: 2644
 
 console hard 5
    1
@@ -332,9 +332,8 @@ Set,ExtendedVariantMode.Friction,-1
 #lvl_c-00
  110
    1,S
-   1,U
-   1,F,0
-   1,U,J
+   1,D
+   1,J,F,180
 SaveAndQuitReenter
   36
   10,L,Z
@@ -680,4 +679,4 @@ SaveAndQuitReenter
    6,R
  135,R
 
-FileTime: 1:26.649(5097)
+FileTime: 1:26.632(5096)
