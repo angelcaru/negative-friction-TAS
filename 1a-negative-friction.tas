@@ -3,8 +3,8 @@ RecordCount: 471
 console load 1
    1
 
-Set ExtendedVariantMode.AirFriction -1
-Set ExtendedVariantMode.Friction -1
+Set,ExtendedVariantMode.AirFriction,-1
+Set,ExtendedVariantMode.Friction,-1
 
 #Start
   88
@@ -89,7 +89,7 @@ Set ExtendedVariantMode.Friction -1
    1,R,J
   14,L,J
    5,D,X
-Repeat, 7
+Repeat,7
    1,L
    1,R
 EndRepeat
@@ -182,7 +182,7 @@ EndRepeat
    8,L,J
    1,K
   18,L,K
-Repeat, 3
+Repeat,3
    5,R,J
    5,L,K
 EndRepeat
@@ -311,7 +311,7 @@ EndRepeat
 #lvl_12a
    4,L
   10,D,X
-Repeat, 3
+Repeat,3
    2,R
    2,L
 EndRepeat

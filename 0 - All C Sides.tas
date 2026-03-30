@@ -1,0 +1,56 @@
+#Start from Begin
+
+Read,Menuing/StartFullGameFile
+
+Read,Menuing/LoadEnableCheatMode,Start
+
+Read,Menuing/LoadCCheatMode,SelectC
+
+Read,1c-negative-friction,Start
+
+Read,Menuing/LoadCCheatMode
+
+Read,2c-negative-friction,Start
+
+Read,Menuing/LoadCCheatMode
+
+Read,3c-negative-friction,Start
+
+Read,Menuing/LoadCCheatMode
+
+Read,4c-negative-friction,Start
+
+Read,Menuing/LoadCCheatMode
+
+Read,5c-negative-friction,Start
+
+Read,Menuing/LoadCCheatMode
+
+Read,6c-negative-friction,Start
+
+Read,Menuing/LoadCCheatMode
+
+Read,7c-negative-friction,Start
+
+Read,Menuing/LoadCCheatMode,0,Core
+   1,R
+   9
+Read,Menuing/LoadCCheatMode,Core
+
+Read,8c-negative-friction,Start
+
+  59
+   1,J
+ 196
+Read,Menuing/LoadANoCollects,0,Prologue
+  48
+Add 7
+
+#Epilogue
+   1,S
+   1,X
+  42
+   1,L
+Read,Menuing/LoadJournal
+
+FileTime: 3:12.372(11316)
