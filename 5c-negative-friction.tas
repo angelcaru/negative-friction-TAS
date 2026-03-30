@@ -1,0 +1,80 @@
+RecordCount: 123
+
+console rmx2 5
+   1
+
+Set ExtendedVariantMode.AirFriction -1
+Set ExtendedVariantMode.Friction -1
+
+#Start
+  61
+
+#lvl_00
+  10,R,Z
+   1,R,J
+  21,L,J
+   4,R,J
+  14,R,U,Z
+   1,J
+  10,L,J
+  20,L
+  40
+
+#lvl_01
+   4,L
+   5,L,D
+StunPause
+   1,R,J
+   4,L,J
+SkipInput 3 1
+  11,R,D,X
+EndStunPause
+   4,R,D,X
+   1,L,D,J
+   1,L,J
+   6,L
+  40
+
+#lvl_02
+   3,L
+   1,R,D,J
+   8,L,J
+   3,L
+StunPause
+   7,L
+EndStunPause
+   3,R
+StunPause
+   3,R
+EndStunPause
+  12,R
+  12,R,U,Z
+   1,L
+   1,J,G
+   6,L,J
+  11,S,Q,N
+   1,L,D
+  11,S,Q,N
+   4,L
+   1,L,J
+  11,L,D
+   7,L,J
+  15,U,X
+Repeat, 4
+   1,R
+   1,L
+EndRepeat
+   4,R
+  29,L
+  15,U,X
+   1,J
+  15,L,J
+  56,L,X
+  78,L,G
+   1,J,G
+   1,K,G
+   1,J,G
+   1,K,G
+   1,J
+
+ChapterTime: 0:10.829(637)
