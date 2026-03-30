@@ -1,0 +1,133 @@
+RecordCount: 236
+
+console rmx2 9
+console hearts 23
+   1
+
+Set ExtendedVariantMode.AirFriction -1
+Set ExtendedVariantMode.Friction -1
+
+#Start
+  61
+
+#lvl_intro
+   4,Z
+   1,R,J
+   9,L,J
+  12,R,G
+Repeat, 72
+   2,L
+   1,R,G
+EndRepeat
+   1
+   1,J
+  22,R,J
+   5,L,Z
+   1,L,J,G
+  65,R
+   4,Z
+   1,R,J
+   7,R
+   1,R,J
+   8,L,J
+  13,R,U,Z
+   1,R,J,G
+  16,L
+  40
+
+#lvl_00
+   8,L
+   1,R,J
+  18,L
+   1,R,J
+  12,L
+  40
+
+#lvl_01
+   1,R
+   1,R,D
+StunPause
+   1,R,D
+   1,R,D,J
+   3,L
+SkipInput 3 1
+   5,R,D,X
+EndStunPause
+   6,R,D,X
+StunPause
+   4,R,D
+   1,J
+   2,R,J
+EndStunPause
+   1,R,J
+  15,U,X
+   8,L
+Repeat, 9
+   1,R
+   1,L
+EndRepeat
+   1,L
+   6,R
+   1,J
+   8,L,J
+  20,L
+  15,U,X
+  21,L
+  15,R,Z
+  25,R,D
+  29,L
+  15,R,U,X
+  15,R,U,C
+  17,L
+   2,R,J,G
+  11,L,J
+   1,R,K,G
+   3,L,K
+  21,L
+  40
+
+#lvl_02
+  12,L
+   1,R,J
+   3,L,J
+   1,R,K,G
+  47,L,K
+  10,R,U,Z
+   1,R,J,G
+  11,L,J
+   5,L
+   3,L,J
+  41,L
+   4,L,D
+   1,R,J
+  30,L,J
+  14,R,U,Z
+   1,R,J,G
+   8,L,J
+   3,L
+   9,R,U,X
+   1,R,J,G
+  11,L
+   1,J
+   7,R
+  29,L,G
+   1
+   1,J,G
+   1,L,J
+   1,R,K,G
+   6,L,K
+  37,R,K
+   1,R,J
+   7,L,J
+   1,L
+  15,R,D,X
+   3,R,D
+   1,R,D,J
+  17,L
+  18,R,U,Z
+  27,L
+  40,R,U,X
+  98,L
+   4,L,U,X
+
+ChapterTime: 0:23.375(1375)
