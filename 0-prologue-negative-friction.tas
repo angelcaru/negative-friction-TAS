@@ -1,4 +1,4 @@
-RecordCount: 67
+RecordCount: 173
 
 console load 0
    1
@@ -12,52 +12,55 @@ Set ExtendedVariantMode.Friction -1
 #lvl_0
   16,L
    1,R,J
-  10,L,J
-  18,L
+   7,L,J
+   1,R,K,G
+  13,L
    1,R,J
-  14,L,J
+   1,R
+  13,R
+   2,L,J
+   5,R,J
   40
 
 #lvl_1
-   7,L
+   5,R,J
+   2,L,J
+   3,R,J
+   1,R,K,G
+   3,L,K
+  10,R,K
+   1,R,J,G
+  10,L,J
+   1,R,K,G
+   4,R,K
+   1,R,J,G
+   4,R,J
+   7,L,J
+   4,L
+  11,L
    1,R
-   4,R,J,G
-   4,L,J
-  10,L
+   1,L
    1,R,J
-  27,L,J
-   1,R,K
-   7,L,K
-   1,R,K
-   2,R,J,G
-  10,L,J
-   2,R,K,G
-   2,L,K
-   9,L
-   1,R,J
-  10,L,J
-  14,L
+   1,L,J
+   5,L
+   2,L,J
+   3,L
   40
 
 #lvl_2
-  11,L
-   1,R,J
-  14,L
-   1,R,J
-   6,L
-  40
+  19,L
+   1,R
+  10,L
+  40,J
 
 #lvl_3
-  15,L
-   1,R,J
+  42,L,J
+   2,R,K
   14,L
    1,R,J
-   5,L,J
-  16,L
-   3,R,G
-   8,J,G
+   3,L,J
    1,S
    1,D,J
  232
 
-ChapterTime: 0:10.047(591)
+ChapterTime: 0:09.435(555)
