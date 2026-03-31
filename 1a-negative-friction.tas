@@ -120,7 +120,7 @@ Set,ExtendedVariantMode.Friction,-1
 #lvl_6a
    6,L,D
    9,R
-Repeat, 6
+Repeat,6
    1,L,D
    1,R
 EndRepeat

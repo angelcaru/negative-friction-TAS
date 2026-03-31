@@ -1,0 +1,408 @@
+RecordCount: 690
+
+console load 10
+   1
+
+Set,ExtendedVariantMode.AirFriction,-1
+Set,ExtendedVariantMode.Friction,-1
+
+#Start
+  98
+
+#lvl_intro-00-past
+   4,Z
+   1,R,J
+   3,L,J
+  27,L
+   1,R,J
+  10,L,J
+   9,L
+
+#lvl_intro-01-future
+   3,L
+   1,N
+   2,L,J
+ 918
+   1,S
+   1,D,J
+  34
+   1
+  40
+
+#lvl_intro-03-space
+  11,L
+  15,U,X
+   3,L
+  15,U,C
+  20,L
+   1,L,J
+  20,R,J
+  15,U,Z
+   1,R
+  13,L
+  15,R,X
+   1,L,D
+  43,R,D
+   1,L
+   1,R,J
+  42,L,J
+   8,R,U,Z
+  40
+
+#lvl_a-00
+   6,R,U,Z
+   1,R,J,G
+   1,L,J
+   2,L
+  15,L,D,X
+   1,J
+  16,L,J
+  15,R,U,X
+   2,L
+   1,R,J,G
+   7,L,J
+   7,L
+   6,L,Z
+   1,R,J
+   8,L,J
+   5,R,U,Z
+   1,R,J,G
+   8,L
+  40
+
+#lvl_a-01
+   4,L
+   5,L,D
+   1,R,J
+  18,L
+   9,R,Z
+   1,R,J,G
+   2,L,J
+   3,L
+  40
+
+#lvl_a-02
+  11,L
+  15,U,X
+  15,R,U,C
+  21,L
+  40
+
+#lvl_a-03
+   6,L
+  15,R,D,X
+   5,L,D
+  15,R,U,X
+  15,U,C
+   1,J
+  28,R,J
+   5,R
+  70,L,G
+   1
+   1,J
+   1,J,G
+  40,L,J
+  40
+
+#lvl_a-04
+  40,L
+  14,R,U,Z
+   1,R,J,G
+   2,L,J
+   6,L
+  40
+
+#lvl_a-05
+   5,L,D
+  15,R,D,X
+   9,L,D
+  12,R,U,Z
+   1,R,J,G
+  10,L
+   1,R,J
+   6,L,J
+   5,R,Z
+   1,R,J
+   6,L
+  40
+
+#lvl_b-00
+   3,L
+   1,R,J
+  11,L,J
+   9,L
+  15,R,U,Z
+   5,L
+  14,R,D,X
+   1,R,J
+   4,L
+   9,R,U,Z
+  40
+
+#lvl_b-01
+   2,R,U,Z
+   1,R,J,G
+   5,L
+   3,R
+  15,R,D,X
+   6,R
+  15,U,X
+   8,L
+Repeat,22
+   1,R,D
+   1,L
+EndRepeat
+  15,R,Z
+  16,L
+  15,U,X
+   1,R,J,G
+  11,L,J
+   1,R,K,G
+   2,L,K
+   5,R,Z
+   1,R,J
+   4,L,J
+   1,R,K,G
+   7,L
+  40
+
+#lvl_b-02
+   5,L
+  13,R,X
+  14,L
+  63,R,D
+  15,U,X
+  11,L
+   7,R,Z
+   1,R,J,G
+   3,L,J
+   5,L
+   1,L,J
+   3,L
+  40
+
+#lvl_b-03
+   7,L,D
+   1,R,J
+  11,L,J
+   5,L
+   1,L
+   4,L,J
+  15,R,U,X
+  20,L
+  15,R,U,Z
+  32,L
+   4,Z
+   1,R,J
+   3,L,J
+  40
+
+#lvl_b-04
+   3,L,J
+   1,R,K,G
+  16,L,D
+  15,D,X
+Repeat,4
+   1,R,D
+   1,L,D
+EndRepeat
+  31,R
+  15,R,U,Z
+  10,L
+  12,R,U,Z
+   9,L,J,G
+   7,L
+   4,Z
+   1,R,J
+  20,L
+  40
+
+#lvl_b-05
+   6,L
+   1,R,J
+  13,L,J
+  15,R,U,X
+  29,L
+  10,R,U,Z
+   1,R,J,G
+   1,L,J
+   7,L
+   4,Z
+   1,R,J
+   7,L
+  40
+
+#lvl_b-06
+   8,L
+   1,R,J
+   5,L,J
+   5,L
+   1,L,J
+  17,L
+  15,R,Z
+  18,L
+  14,R,Z
+   1,R,J
+   6,L,J
+  40
+
+#lvl_b-07 (0)
+   5,L,J
+  15,U,Z
+   4,R
+  18,U,X
+  15,R,U,Z
+  22,L
+  15,R,U,X
+   9,L
+  15,R,D,X
+  27,L,D
+   1,J
+   8,R
+  15,L,U,Z
+  30,R
+  18,D,X
+  15,R,C
+  11,L
+  18,R,Z
+  14,R,X
+   1,R,J,G
+   5,R,Z
+   1,R,J
+   6,L,J
+  40
+
+# here onwards is my attempt at farewell skip
+# idk if its even possible, we'll probably do skipless first
+#lvl_c-00 (0)
+   1,L,J
+  10,L
+   1,R,J
+   6,L,J
+  15,U,X
+  11,L,U,C
+   1,L,J,G
+  26,R
+  15,U,X
+  15,J
+  15,U,X
+   2,R
+   1,R,J,G
+  22,L,J
+   6,R,X
+  12,L
+  15,R,U,X
+   2,L
+  15,R,U,C
+   9,L
+   2,R,J,G
+   9,L
+   1,R
+   1,L
+   2,R
+   1,L
+   1,R
+   1,L
+  13,G
+   9,R,G
+Repeat,7
+   1,L,G
+   1,R,G
+EndRepeat
+Repeat,7
+   1,L,D,G
+   1,R,D,G
+EndRepeat
+  17,L,D,G
+  20,R,D,G
+  71,L,D,G
+  15,R,D,G
+Repeat,2
+   1,L,D,G
+   1,R,D,G
+EndRepeat
+  34,L,D,G
+  26,R,D,G
+   5,R,G
+   1,L,J,G
+  30,R,G
+  40
+
+#lvl_b-07 (1)
+   1,D
+  12,L,D,X
+   1,R,J
+   4,L
+   8,R,D,X
+  13,R,J,G
+   1,L,J,G
+  40
+
+#lvl_c-00 (1)
+  23,L,G
+   1,L
+  15,D,X
+  10,U,C
+  83,G
+  12,L,G
+   9,D
+  25,U,X,G
+   7,L,G
+   6,D
+  15,U,X
+  19,L
+   2,R,J,G
+  11,L,J
+  13,R,K,G
+   1,L,J,G
+  11,R,J
+   9,R
+  15,U,X
+  10,R,C
+   4,R,J
+   3,L,J
+   7,L
+Repeat,2
+   1,R
+   1,L
+EndRepeat
+   2,R
+Repeat,11
+   1,L
+   1,R
+EndRepeat
+  13,G
+Repeat,4
+   1,L,G
+   1,R,G
+EndRepeat
+   7,R,D,G
+   7,L,D,G
+  20,R,D,G
+  35,R,G
+   1,D
+  15,U,X
+  13,G
+  15,L,D,G
+Repeat,24
+   1,L,D,G
+   1,R,D,G
+EndRepeat
+   1,D
+   7,R
+  15,D,X
+  19,L
+   4,R
+  15,L,X
+   1,R
+  14,R,Z
+   1,R,J
+   6,R,D,X
+   1,R,J
+   7,L,D
+   1,R,J
+  11,R,D,X
+  14,L,G
+   1,R,G
+   1,D
+  14,R,D,X
