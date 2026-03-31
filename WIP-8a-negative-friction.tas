@@ -1,0 +1,301 @@
+RecordCount: 659
+
+console load 9
+   1
+
+Set,ExtendedVariantMode.AirFriction,-1
+Set,ExtendedVariantMode.Friction,-1
+
+#Start
+  54
+
+#lvl_00 (0)
+   4,Z
+   1,L,J
+  40
+
+#lvl_0x
+  23,R
+   1,L,J
+  13,L,D,X
+   1,R,J
+  11,L
+   3,L,D
+   1,L
+   1,R,J
+   8,L,J
+   9,R,D,X
+   1,R,J,G
+   1,L,J
+   6,L
+  40
+
+#lvl_00 (1)
+   5,L,J
+   4,L
+   1,R,K
+   1,R,J,G
+   1,L,J
+   3,L
+   6,R,D,X
+   1,S
+   1,D,J
+  34
+   4,L,D
+   2,L
+  40
+
+#lvl_01
+   5,L
+   1,L,D
+   6,L
+   1,R,J
+  10,R,D,X
+   1,L,J
+   4,L
+  15,U,X
+  17,L
+   1,R,J
+   9,L,J
+  14,U,X
+   1,J
+  17,L,J
+   5,U,X
+   1,J
+  13,L,J
+  20,L
+  40
+
+#lvl_02
+   3,L
+   1,R,J
+   2,L,J
+   1,R,K,G
+   5,L
+   6,R,D,X
+   1,S
+   1,D,J
+  34
+   6,L
+   1,R,J
+ 122,L
+   4,Z
+   1,L,J
+  18,R
+   1,L,J
+   1,R,J
+  21,R
+   4,Z
+   1,R,J
+   1,L,J
+  23,L
+   4,L,D
+   1,R,J
+   8,L,J
+   1,R,K,G
+   9,L,K
+   8,R,U,Z
+  40
+
+#lvl_a-00
+   2,L
+   5,J,G
+  14,R,U,X
+   1,R,J,G
+   6,L,J
+   5,R,Z
+   1,R,J
+   7,L
+   1,R,J
+  11,L,J
+  14,L
+   1,R
+   3,L
+   6,R,U,Z
+  40
+
+#lvl_a-01
+   1,L
+  12,J,G
+   8,L
+   8,R,D,X
+   1,R,J,G
+   6,L,J
+  40
+
+#lvl_a-02
+   9,L,J
+   9,R,J
+  13,U,X
+   1,J
+  12,L,J
+  15,U,X
+   9,J
+  40
+
+#lvl_a-03
+   1,J
+  16,R,J
+  15,U,X
+   1,L,J,G
+  11,R,J
+   1,L,K,G
+  11,R,K
+   1,L,J,G
+  11,R,J
+   7,K
+  15,U,X
+  10,R
+  30,L,U,G
+   1,R,J
+  14,J
+  15,U,X
+   2,R
+  18,J
+   1,L,K,G
+   3,R,K
+  40
+
+#lvl_b-00
+  21,J
+  15,L,U,X
+  15,U,C
+   6,R
+  15,L,U,X
+   7,R
+   1,L,J,G
+  11,R,J
+   1,L,K,G
+   4,R,K
+  40
+
+#lvl_b-07b
+  11,K
+  18,R,U,X
+   2,L
+   1,R,J,G
+  11,L,J
+   6,L
+  37,R,U,G
+   5,R,J,G
+Repeat,3
+   1,L,J
+   1,R,J
+EndRepeat
+   1,L,J
+  15,U,X
+  13,U,C
+   1,J
+  28,R,J
+   2,R
+  32,L,U,G
+   5,L,J,G
+Repeat,3
+   1,R,J
+   1,L,J
+EndRepeat
+   1,R,J
+  15,U,X
+   1,J
+  18,U,X
+  18,J
+  15,U,X
+  15,U,C
+  18,J
+   1,L,K,G
+   4,R,K
+  40
+
+#lvl_b-07
+  16,J
+  15,U,X
+   9,L,U,C
+   1,L,J,G
+   9,R
+Repeat,16
+   1,L
+   1,R
+EndRepeat
+   1,L,J
+  18,R,J
+  15,U,X
+  31,R
+  17,U,X
+   1,J
+   7,L,J
+  10,R,J
+   1,L,K,G
+   9,R,K
+  40
+
+#lvl_c-00
+   9,J
+   2
+   8,L,D,X
+   1,R,J
+   7,L
+   1,R,J
+   5,L,J
+   1,R,K,G
+   1,L,K
+   5,L
+   2,L,J
+  21,L
+  12,R,U,Z
+   1,L
+  10,L,J,G
+   1,R,K,G
+   6,L,K
+Repeat,9
+   1,R,K
+   1,L,K
+EndRepeat
+Repeat,6
+   1,R
+   1,L
+EndRepeat
+   1,L
+   3,L,D
+   4,Z
+   1,R,J
+  19,L,J
+  12,R,U,Z
+   1,R,J,G
+   3,L,J
+   7,L
+  40
+
+#lvl_c-01
+   4,L
+   1,R,J
+  21,L
+  10,R,D,X
+   1,L
+  13,R
+   6,R,U,Z
+  40
+
+#lvl_c-02
+   1,L
+  12,L,J,G
+   5,R
+  13,R,J
+  21,R,D
+   3,R
+   2,L
+  10,R,U,Z
+   1,R,J,G
+   4,L
+   7,R,D,X
+   1,R,J
+  40
+
+#lvl_c-03
+  16,L
+   1,R,D,J
+   7,L,J
+  15,L
+  13,R,Z
+  10,L
+  18,R,U,X
+  99,L,D
