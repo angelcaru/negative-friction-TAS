@@ -42,6 +42,25 @@ Add 29
   32
 Add 1
 
+# Read,7a-cassette-negative-friction,Start,Return
+#
+# Read,Menuing/LoadBFromA
+#
+# Read,7b-negative-friction,Start
+#   59
+#    1,J
+#  196
+# Read,Menuing/LoadANoCollects,0,Prologue
+#   48
+# Add 7
+#
+# #Epilogue
+#    1,S
+#    1,X
+#   42
+#    1,R
+# Read,Menuing/LoadJournal
+
 Read,7a-negative-friction,Start
 
 Read,Menuing/LoadCoreFromSummit,0,Epilogue
