@@ -1,0 +1,57 @@
+RecordCount: 41
+
+console load 7
+   1
+
+Set,ExtendedVariantMode.AirFriction,-1
+Set,ExtendedVariantMode.Friction,-1
+
+#Start
+Read,7a-negative-friction,Start,lvl_d-03
+
+#lvl_d-03
+   4,L
+   1,J,G
+  13,L
+  15,R,U,Z
+  15,L,U,X
+  16,R
+   2,L,J,G
+  11,R,J
+   1,L,K,G
+  11,R,K
+   1,L,J,G
+  40
+
+#lvl_d-03b
+  12,J
+   1,R,K,G
+   1,L,K
+   5,R,Z
+   1,R,J
+  12,L
+   1,R,D,J
+   8,L,J
+  13,L
+  35,R,U,Z
+  10,L,D,X
+   1,R,J
+  26,L,J
+  14,R,U,X
+   1,R,J,G
+   9,L,J
+   5,R,Z
+   1,R,J
+   8,L
+   1,R,J
+   4,L,J
+ 257
+   1,J
+#Return
+  62
+   1,S
+   1,U,J
+   1,O
+  31
+
+FileTime: 2:06.140(7420)
