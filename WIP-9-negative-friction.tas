@@ -1,4 +1,4 @@
-RecordCount: 690
+RecordCount: 775
 
 console load 10
    1
@@ -272,8 +272,6 @@ EndRepeat
    6,L,J
   40
 
-# here onwards is my attempt at farewell skip
-# idk if its even possible, we'll probably do skipless first
 #lvl_c-00 (0)
    1,L,J
   10,L
@@ -347,8 +345,8 @@ EndRepeat
   12,L,G
    9,D
   25,U,X,G
-   7,L,G
-   6,D
+   8,L,G
+   5,D
   15,U,X
   19,L
    2,R,J,G
@@ -388,6 +386,7 @@ Repeat,24
    1,L,D,G
    1,R,D,G
 EndRepeat
+   1,G
    1,D
    7,R
   15,D,X
@@ -397,12 +396,23 @@ EndRepeat
    1,R
   14,R,Z
    1,R,J
+Repeat 4
    6,R,D,X
    1,R,J
    7,L,D
    1,R,J
-  11,R,D,X
-  14,L,G
-   1,R,G
+   9,R,D,X
+  13,G
+   1,L,G
    1,D
-  14,R,D,X
+   1,L
+EndRepeat
+   7,R,D,X
+   1,R,J
+   9,L
+   9,R,D,X
+  13,G
+   3,L,G
+   1,D
+  99,L
+  99,R,D,X
