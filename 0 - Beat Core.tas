@@ -10,13 +10,17 @@ Read,1a-negative-friction,Start
 
 Read,Menuing/LoadA
 
-Read,2a-cassette-negative-friction,Start,Return
+# Read,2a-cassette-negative-friction,Start,Return
+#
+# Read,Menuing/LoadBFromA
+#
+# Read,2b-negative-friction,Start
+#
+# Read,Menuing/LoadAFromB
 
-Read,Menuing/LoadBFromA
+Read,2a-negative-friction,Start
 
-Read,2b-negative-friction,Start
-
-Read,Menuing/LoadAFromB
+Read,Menuing/LoadA
 
 Read,3a-negative-friction,Start
 
@@ -48,9 +52,15 @@ Add 29
   32
 Add 1
 
-Read,7a-negative-friction,Start
+Read,7a-cassette-negative-friction,Start,Return
 
-Read,Menuing/LoadCoreFromSummit
+Read,Menuing/LoadBFromA
+
+Read,7b-negative-friction,Start
+
+Read,Menuing/LoadAFromB
+
+Read,Menuing/LoadCoreFromSummit,Epilogue
 
 Read,8a-negative-friction,Start
   59
@@ -66,4 +76,4 @@ Read,Menuing/LoadA,0,Control
    1,L
 Read,Menuing/LoadJournal
 
-FileTime: 21:46.756(76868)
+FileTime: 21:33.836(76108)
