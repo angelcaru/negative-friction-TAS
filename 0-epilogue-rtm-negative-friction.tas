@@ -1,0 +1,24 @@
+RecordCount: 10
+
+console load 8
+   1
+
+Set,ExtendedVariantMode.AirFriction,-1
+Set,ExtendedVariantMode.Friction,-1
+
+#Start
+Read,0-epilogue-negative-friction,Start,lvl_inside
+
+#lvl_inside
+  33,L,J
+   1,S
+   1,D,J
+  18
+   1,S
+  76
+   1,U,J
+  15
+   1,O
+  31
+
+FileTime: 0:00.000(0)

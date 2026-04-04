@@ -11,7 +11,7 @@ Add 1
    1
 
 #Epilogue
-Read,../0-epilogue-negative-friction,Start
+Read,../0-epilogue-rtm-negative-friction,Start
 
 #Core
    4
