@@ -58,7 +58,9 @@ Read,Menuing/LoadBFromA
 
 Read,7b-negative-friction,Start
 
-Read,Menuing/LoadAFromB
+Read,Menuing/LoadAFromB,0,Summit
+  46
+Add 1
 
 Read,Menuing/LoadCoreFromSummit,Epilogue
 
