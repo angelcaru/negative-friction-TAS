@@ -1,0 +1,46 @@
+RecordCount: 58
+
+console load 1 lvl_6
+   1
+
+Set ExtendedVariantMode.AirFriction -1
+Set ExtendedVariantMode.Friction -1
+
+#Start
+  36
+
+#lvl_6
+   1,R,D,J
+  22,L,J
+  13,U,X
+   6,J
+   1,L,K,G
+  12,R
+  43
+
+#lvl_6z
+   4,R
+   1,L,D,J
+  20,R
+  15,U,X
+  18,J
+   7,K
+  40
+
+#lvl_7zb
+  12,J
+  13,R
+   1,L,D,J
+   7,R,J
+   1,L,J
+  11,U,X
+  18,J
+  11,R
+  15,D,X
+  14,L
+   1,S
+   1,U,J
+   1,O
+  31
+
+FileTime: 0:06.086(358)
