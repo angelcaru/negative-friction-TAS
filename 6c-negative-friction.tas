@@ -1,4 +1,4 @@
-RecordCount: 293
+RecordCount: 416
 
 console rmx2 6
    1
@@ -18,18 +18,18 @@ Set ExtendedVariantMode.Friction -1
    1,J
   22,L,J
 StunPause
-  15,L,J
+  14,L,J
 EndStunPause
-  16,L
+  17,L
   40
 
 #lvl_01
   15,L
   15,D,X
    6,L,D
-  12,R,D
+  10,R,D
 StunPause
-   2,R,D
+   4,R,D
   17,L,D
    7,L
 EndStunPause
@@ -53,25 +53,44 @@ Repeat, 10
    1,L
    1,R
 EndRepeat
-  62,L,D
+   5,L,D
 EndStunPause
+   5,L,D
    5,R,D
-  41,L,D
+StunPause
+   3,R,D
+   7,L,D
+Repeat, 5
+   2,R,D
+   2,L,D
+EndRepeat
+   1,R,D
+EndStunPause
+   1,R,D
+   2,L,D
+Repeat, 2
+   2,R,D
+   2,L,D
+EndRepeat
+  23,L
+  15,D,X
+  26,L,D
    1,R,J
-   4,L,J
-   5,R,Z
+   1,R,K
    1,R,J
-   6,L
+   1,L,J
+   7,L
+   5,L
   40
 
 #lvl_02
-  13,L
+   9,L
   15,D,X
-Repeat, 10
+Repeat, 11
    1,R,D
    1,L,D
 EndRepeat
-  14,R,D
+  13,R,D
    1,J
   34,L,J
   10,R,K,G
@@ -104,35 +123,24 @@ EndStunPause
    1,L,J
   48,L
   15,L,U,X
-  39,R
-  18,U,X
-   4,R,D
-Repeat, 10
-   1,R,D
-   1,L,D
-EndRepeat
-  15,R,D
-  15,L,X
-  11,R
-  14,L
-  15,L,X
-  41,L
-  15,L,X
-  23,R
-  24,L
-  18,U,X
-  26,L
+  36,L
+  12,R
   15,U,X
-   8,L
-Repeat, 18
-   1,R
-   1,L
-EndRepeat
-  18,R
-  29,L
-  14,R,U,X
- 100,L
-   1,J
-  34,R,J
+   3,R
+   8,R,J,G
+   7,L,J
+  11,L
+   2,R
+   1,R,J,G
+   8,L,J
+  17,L
+  15,D,X
+   4,L,D
+  23,R,D
+  11,U,X
+   6,J
+  17,L
+  40,L,D,X
+ 105,R
 
-ChapterTime: 0:40.290(2370)
+ChapterTime: 0:35.054(2062)
