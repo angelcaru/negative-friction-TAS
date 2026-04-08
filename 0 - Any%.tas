@@ -18,7 +18,7 @@ Read,Menuing/LoadA
 
 Read,4a-negative-friction,Start
 
-Read,Menuing/LoadA
+Read,Menuing/LoadANoCollects
 
 Read,5a-cassette-negative-friction,Start,Return
 
