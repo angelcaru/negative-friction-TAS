@@ -1,4 +1,4 @@
-RecordCount: 3865
+RecordCount: 4316
 
 console hard 6
    1
@@ -8,7 +8,11 @@ Set ExtendedVariantMode.Friction -1
 
 #Start
 #lvl_a-00
-  15
+
+# a-01 Spinner cycle
+   2,D
+#
+  14
    7,R,D,X
    1,R,J,G
    1,R,K,G
@@ -18,7 +22,7 @@ Repeat,18
    1,R
    1,L
 EndRepeat
-   1,R
+   2,R
    5,D,X
    1,L
 Repeat,30
@@ -36,18 +40,24 @@ Repeat,23
    1,R
 EndRepeat
    5,D,X
-Repeat,33
+Repeat,24
    1,L
    1,R
 EndRepeat
-   2,R
-  11,R,X
-   8,J
+  14,L
+   3,R
+  10,L,Z
+   1,R,J
+   5
+   1,L,J,G
+   6,J
    1
-  28,J
-  16,U,X
-  18,L,J
-   3,R,K,G
+   9,J
+   1,K,G
+  15,K
+  14,U,X
+   4,L,J
+   4,R,J
   40,K
 
 #lvl_a-01
@@ -77,32 +87,37 @@ EndStunPause
 #lvl_a-03
    2,R,J
    1,K
-  14
+  17
+   7,R,J
+   6,R
    1,R,J
-   6,J
-  11
-   1,D,J
-   3,J
    1
-   7,J
-  15,D,X
-  25,J
-  65,F,323
-   8,L
+   3,R
+   1,L,D,J
+   3,R,J
+   5,R
+   3,R,J
+   9,R
+   7
+  15,U,X
+  19,U
+   5,F,44
+  22,F,270
   25,R
-  35,F,150
-   3,D
+  42,F,142
   14,R,Z
-  22,L
+  19,L,D
+   3,L
    1,D,J
   40
 
 #lvl_a-04
    7,D,J
    1
-  12,J
+   9,J
+   3
    7,L,D,X
-  34
+  32
   15,U,X
    8,L
 Repeat,5
@@ -120,11 +135,16 @@ EndRepeat
   15,R,Z
   26
   15,R,U,X
-  28,L
-   1,R
+  26,L
+   3,R,D
    4,R,J,G
    1,L,J
    7,L
+
+# Spinner cycle
+   1,D
+#
+
    5,R,J,Z
    6
   40
@@ -990,4 +1010,4 @@ EndRepeat
   11,L,J
  200,R,U,X
 
-ChapterTime: 3:01.237(10661)
+ChapterTime: 3:00.472(10616)
