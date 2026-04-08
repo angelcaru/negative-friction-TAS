@@ -28,7 +28,7 @@ Read,5b-negative-friction,Start
 
 Read,Menuing/LoadAFromB
 
-# 6A is 18 frames slower as of April 8th 2026 15:49 GMT
+# 6A is 63 frames slower as of April 8th 2026 18:46 GMT
 # Read,6a-negative-friction,Start
 #
 # Read,Menuing/LoadA,0,Summit
