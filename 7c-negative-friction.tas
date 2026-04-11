@@ -1,4 +1,4 @@
-RecordCount: 439
+RecordCount: 503
 
 console rmx2 7
    1
@@ -66,25 +66,19 @@ EndRepeat
   13,U,C
   31,L
   15,R,U,X
-  20,L
-  15,R,Z
-  39,L
-   2,R,J,G
-  11,L,J
-   1,R,K,G
-   7,L,K
-   7,R,J,G
-  13,L,J
+   8,L
+  15,U,X
+Repeat, 6
+   1,R
    1,L
-   9,R,U,G
-Repeat, 33
-   1,D,G
-   1,U,G
 EndRepeat
-   1,R,J,G
-  11,L,J
-   5,K
- 111
+  22,R
+  15,R,Z
+   6,L
+  10,R,D,X
+   1,R,J
+  21,L
+ 110
 
 #lvl_03
   69
@@ -124,7 +118,9 @@ EndRepeat
   13,R
   19,L
   15,R,U,Z
-  35,L
+  11,L
+
+  24,L
   15,U,X
    9,L,C
   18,L
@@ -183,12 +179,12 @@ EndRepeat
    8,L,J
   15,R,D,X
    8,L,D
-   1,R,J
+   1,R,D,J
   10,L,J
   12,L
-   1,R,J
+   1,R,D,J
    9,L,J
   27,L,D,X
- 141,R
+ 113,R
 
-ChapterTime: 0:35.785(2105)
+ChapterTime: 0:33.983(1999)
